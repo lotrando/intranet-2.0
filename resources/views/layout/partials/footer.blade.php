@@ -4,7 +4,7 @@
       <div class="col-lg-auto ms-lg-auto">
         <ul class="list-inline list-inline-dots mb-0">
           <li class="list-inline-item">
-            {{ __('Copyright') }} &copy; 2023 -
+            {{ __('Copyright') }} &copy; 2023.
             {{ __('Created for hospital employees by') }}
             <a href="mailto:{{ env('APP_AUTOR_EMAIL') }}" target="_blank" class="link-primary text-decoration-none" rel="noopener">
               {{ env('APP_AUTOR') }}
@@ -22,7 +22,7 @@
               <path d="M7 8l4 -2.5"></path>
               <path d="M18 10l4 -2.5"></path>
             </svg>
-            Laravel v{{ App::VERSION() }}
+            <span>{{ App::VERSION() }}</span>
             and
             <svg class="icon text-yellow" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
               stroke-linecap="round" stroke-linejoin="round">
@@ -31,7 +31,7 @@
               <path d="M7.5 8h3v8l-2 -1"></path>
               <path d="M16.5 8h-2.5a.5 .5 0 0 0 -.5 .5v3a.5 .5 0 0 0 .5 .5h1.423a.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5"></path>
             </svg>
-            jQuery v<span id="version"></span>
+            <span id="version"></span>
           </li>
         </ul>
       </div>
@@ -39,7 +39,9 @@
         <ul class="list-inline list-inline-dots mb-0">
           <li class="list-inline-item">
             {{ __('Copyright') }} &copy; 2023. {{ __(' All rights reserved') }}
-            <a href="https://www.khn.cz" class="link-primary text-decoration-none" target="_blank">Karvinská hornická nemocnice a.s.</a>
+            <a href="https://www.khn.cz" class="link-primary text-decoration-none" target="_blank">
+              KHN a.s.
+            </a>
           </li>
         </ul>
       </div>
