@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index', ['title' => 'Index']);
+    return view('index', [
+        'title'     => 'Index',
+        'uzivatel'  => 'Klika Miroslav',
+        'funkce'    => 'Vývojář, webmaster',
+    ]);
 })->name('index');

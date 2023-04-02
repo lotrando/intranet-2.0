@@ -91,8 +91,14 @@
     </div>
   </div>
 
+  <script src="{{ asset('js/jquery.min.js') }}"></script>
   <script src="{{ asset('js/tabler.js') }}"></script>
   <script src="{{ asset('js/demo.js') }}"></script>
+  <script>
+    $(document).ready(function() {
+      $('#version').html($.fn.jquery)
+    });
+  </script>
 </body>
 
 </html>
