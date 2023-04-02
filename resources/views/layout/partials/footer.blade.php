@@ -6,7 +6,7 @@
           <li class="list-inline-item">
             {{ __('Copyright') }} &copy; 2023 -
             {{ __('Created for hospital employees by') }}
-            <a href="mailto:{{ env('APP_AUTOR_EMAIL') }}" target="_blank" class="link-secondary" rel="noopener">
+            <a href="mailto:{{ env('APP_AUTOR_EMAIL') }}" target="_blank" class="link-primary text-decoration-none" rel="noopener">
               {{ env('APP_AUTOR') }}
             </a>
             {{ __('in ') }}
@@ -33,16 +33,13 @@
             </svg>
             jQuery v<span id="version"></span>
           </li>
-          <li class="list-inline-item">
-            dev v2.0
-          </li>
         </ul>
       </div>
       <div class="col-12 col-lg-auto mt-lg-0 mt-3">
         <ul class="list-inline list-inline-dots mb-0">
           <li class="list-inline-item">
-            {{ __('Copyright') }} &copy; 2023. {{ __(' All rights reserved') }} -
-            <a href="https://www.khn.cz" class="link-primary" target="_blank">KHN a.s.</a>
+            {{ __('Copyright') }} &copy; 2023. {{ __(' All rights reserved') }}
+            <a href="https://www.khn.cz" class="link-primary text-decoration-none" target="_blank">Karvinská hornická nemocnice a.s.</a>
           </li>
         </ul>
       </div>
