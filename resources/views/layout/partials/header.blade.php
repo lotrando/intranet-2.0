@@ -48,10 +48,10 @@
             </div>
             <div class="nav-item dropdown">
               <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown" aria-label="Open user menu">
-                <span class="avatar avatar-sm" style="background-image: url(./static/avatars/000m.jpg)"></span>
+                <span class="avatar avatar-sm text-blue">{{ substr($last_name, 0, 1) }}{{ substr($first_name, 0, 1) }}</span>
                 <div class="d-none d-xl-block ps-2">
-                  <div>{{ $uzivatel }}</div>
-                  <div class="small text-muted mt-1">{{ $funkce }}</div>
+                  <div>{{ $last_name }} {{ $first_name }}</div>
+                  <div class="small text-blue mt-1">{{ $personal_number }} - {{ $funkce }}</div>
                 </div>
               </a>
               <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
