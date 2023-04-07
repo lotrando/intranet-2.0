@@ -15,15 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index', [
-<<<<<<< HEAD
-        'title'     => 'Index',
-=======
         'title'             => 'Index',
         'personal_number'   => '61625',
         'title_preffix'     => 'MUDr.',
         'last_name'         => 'Klika',
         'first_name'        => 'Miroslav',
         'funkce'            => 'Vývojář, webmaster',
->>>>>>> 2423da9 (header update)
     ]);
 })->name('index');
