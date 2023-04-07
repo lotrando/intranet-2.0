@@ -20,6 +20,7 @@ Route::get('/', function () {
         'title_preffix'     => 'MUDr.',
         'last_name'         => 'Klika',
         'first_name'        => 'Miroslav',
-        'funkce'            => 'Vývojář, webmaster',
+        'title_suffix'      => null,
+        'funkce'            => 'Vývojář, webmaster'
     ]);
 })->name('index');
